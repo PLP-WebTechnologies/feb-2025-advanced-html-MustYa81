@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+</head>
+<body>
+    <header>
+        <h1>Advanced HTML5 Elements and Forms</h1>
+    </header>
+    
+    <section>
+        <h2>PLP Cohert 2025</h2>
+        <ol type="I">
+            <li>Web Development</li>
+            <li>Software Engineering</li>
+            <li>Python</li>
+            <li>Database</li>
+            <li>Entrepunership</li>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg" alt="Sample Image from Pexels" style="width:400px;height:400px;">
+    </section>
+    
+    <section>
+        <h2>Contact Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Crestiano Ronaldo</td>
+                    <td>123 Street, City</td>
+                    <td>+1234567890</td>
+                    <td>CR7@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ronaldinho Gautshow</td>
+                    <td>456 Avenue, City</td>
+                    <td>+9876543210</td>
+                    <td>RG10@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Zin edin Zidane</td>
+                    <td>789 Boulevard, City</td>
+                    <td>+1122334455</td>
+                    <td>ZIZO@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Lionel Messy</td>
+                    <td>1011 Drive, City</td>
+                    <td>+5566778899</td>
+                    <td>Messy10@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Abedi Pele</td>
+                    <td>1213 Lane, City</td>
+                    <td>+9988776655</td>
+                    <td>Pele@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a password" required>
+            
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br><br>
+            
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="brazil">Brazil</option>
+                <option value="argentina">Argentina</option>
+                <option value="ghana">Ghana</option>
+                <option value="france">France</option>
+            </select>
+            <br><br>
+            
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="movies" name="interests" value="movies">
+            <label for="music">Movies</label>
+            <input type="checkbox" id="football" name="interests" value="football">
+            <label for="sports">Football</label>
+            <br><br>
+            
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
